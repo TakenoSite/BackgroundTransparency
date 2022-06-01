@@ -44,8 +44,8 @@ class EDIT(object):
         
         #Color specification after transparency
         
-        R = 0
-        G = 0
+        R = 255
+        G = 255
         B = 255
         
         #######
