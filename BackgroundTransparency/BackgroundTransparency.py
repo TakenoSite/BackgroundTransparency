@@ -54,8 +54,8 @@ class EDIT(object):
         img_rgb[:,:,1] = np.where(np.all(img_rgb == 255,axis=-1),0,G)
         img_rgb[:,:,2] = np.where(np.all(img_rgb == 255,axis=-1),0,R)
         
-        NAME = "./OutPut.png"
-        cv2.imwrite(NAME,img_rgb)
+        FILENAME = "./OutPut.png"
+        cv2.imwrite(FILENAME,img_rgb)
 
 if __name__ == "__main__":
     EDIT(input_path[1])
