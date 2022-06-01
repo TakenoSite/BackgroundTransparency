@@ -6,7 +6,7 @@ how to use
 1 : The color after transparency can be changed from RGB
 2 : Only supports white background for black text
 
-
+@TakenoSite
 """
 
 
