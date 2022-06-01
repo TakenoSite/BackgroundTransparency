@@ -1,5 +1,4 @@
 """
-
 how to use 
     Drop the image you want to edit into the program file
 
