@@ -16,7 +16,7 @@ import sys
 
 input_path  = sys.argv
 
-class EDIT(object):
+class Trace(object):
     def __init__(self,path) -> None:
         self.img_load = cv2.imread(path)
         self.img_thresh()
@@ -57,4 +57,4 @@ class EDIT(object):
         cv2.imwrite(FILENAME,img_rgb)
 
 if __name__ == "__main__":
-    EDIT(input_path[1])
+    Trace(input_path[1])
